@@ -21,11 +21,11 @@ import os
 import sys
 from odoo import models, fields, api
 
-class ProductProdict(models.Model):
+class ProductTemplate(models.Model):
     """ Add dimension product
     """
     
-    _inherit = 'product.product'
+    _inherit = 'product.template'
     
     # -------------------------------------------------------------------------
     # TABLE
