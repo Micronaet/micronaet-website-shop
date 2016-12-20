@@ -36,8 +36,8 @@ class ProductTemplate(models.Model):
     length = fields.Char('Length')
 
     pack_h = fields.Char('Pack Height')
-    pack_w = fields.Char('Pack Width')
-    pack_l = fields.Char('Pack Length')
+    pack_l = fields.Char('Pack Width')
+    pack_p = fields.Char('Pack Length')
     
     # Extra:
     q_x_pack = fields.Char('Q. x Pack')
