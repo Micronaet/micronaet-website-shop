@@ -30,10 +30,18 @@ class ProductTemplate(models.Model):
     # -------------------------------------------------------------------------
     # TABLE
     # -------------------------------------------------------------------------
-
+    # Dimension:
     height = fields.Char('Height')
     width = fields.Char('Width')
     length = fields.Char('Length')
+
+    pack_h = fields.Char('Pack Height')
+    pack_w = fields.Char('Pack Width')
+    pack_l = fields.Char('Pack Length')
+    
+    # Extra:
+    q_x_pack = fields.Char('Q. x Pack')
+    
     
     
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
