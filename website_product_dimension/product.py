@@ -41,7 +41,9 @@ class ProductTemplate(models.Model):
     
     # Extra:
     q_x_pack = fields.Char('Q. x Pack')
+    fabric = fields.Char('Fabric') 
+    type_of_material = fields.Char('Type of material')
     
-    
-    
+
+
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
